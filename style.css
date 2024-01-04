@@ -1,0 +1,111 @@
+.img{
+    height: 50px;
+
+}
+.nav-container{
+    box-shadow: 0 3px 4px gray;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.left{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.right{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 1px gray;
+    
+}
+.container1 > .right1{
+    display: flex;
+    gap: 20px;
+}
+ .c1{
+    margin: auto;
+ }
+ .card{
+    padding: 10px;
+    width: 250px;
+    
+ }
+ .img1{
+    width: 250px;
+   
+ }
+ .offer{
+    display: flex;
+    padding: 10px;
+    border-bottom: 0.5px solid gray;
+ }
+ .rating{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid gray;
+ }
+ .bullet{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+ }
+ .card-box{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+ }
+ .card:hover{
+    outline: 0.5px solid gray;
+ }
+ .star{
+    display: block;
+    
+    width: 50px;
+ }
+ .right1:hover{
+    cursor: pointer;
+    
+ }
+ .right:hover{
+    cursor: pointer;
+    
+ }
+ .f{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    padding: 40px;
+ }
+ .f> div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+
+ }
+ .f>div>a{
+    color: white;
+    text-decoration: none;
+
+ }
+ .f img{
+    width: 150px;
+border: 2px solid gray;
+ }
+ .f h3{
+    color: white;
+ }
+ 
